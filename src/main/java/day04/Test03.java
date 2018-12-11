@@ -1,6 +1,5 @@
 package day04;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 
 /**
@@ -14,16 +13,14 @@ public class Test03 {
 		ll.add("two");
 		ll.add("three");
 		ll.add("four");
+		System.out.println(ll);
 
 		String string = ll.get(1);
 		System.out.println("第二个元素为:" + string);
 		ll.set(2, "3");
 		ll.add(1, "2");
 		ll.remove(2);
-		Iterator<String> iterator = ll.iterator();
-		while (iterator.hasNext()) {
-			String next = iterator.next();
-			System.out.println(next);
-		}
+		
+		System.out.println(ll);
 	}
 }

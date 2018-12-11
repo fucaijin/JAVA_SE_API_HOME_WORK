@@ -33,5 +33,10 @@ public class Test02 {
 		while(iterator.hasNext()){
 			System.out.println(iterator.next());
 		}
+		
+//		for each循环法：
+		for (String string : arr) {
+			System.out.println(string);
+		}
 	}
 }

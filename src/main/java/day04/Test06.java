@@ -1,7 +1,6 @@
 package day04;
 
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -15,11 +14,6 @@ public class Test06 {
 		
 //		将该数组转换为一个List集合
 		List<String> arr = Arrays.asList(str);
-		
-//		遍历输出
-		Iterator<String> iterator = arr.iterator();
-		while (iterator.hasNext()) {
-			System.out.println(iterator.next());
-		}
+		System.out.println(arr);
 	}
 }

@@ -1,6 +1,8 @@
 package day04;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -11,13 +13,13 @@ import java.util.Random;
 public class Test07 {
 	public static void main(String[] args) {
 		Random random = new Random();
-		ArrayList<Integer> al = new ArrayList<Integer>();
+		List<Integer> list = new ArrayList<Integer>();
 		for (int i = 0; i < 10; i++) {
-			al.add(random.nextInt(50));
+			list.add(random.nextInt(50));
 		}
 		
-		System.out.println("排序前:" + al.toString());
-		al.sort(null);
-		System.out.println("排序后:" + al.toString());
+		System.out.println("排序前:" + list.toString());
+		Collections.sort(list);
+		System.out.println("排序后:" + list.toString());
 	}
 }
