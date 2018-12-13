@@ -10,7 +10,6 @@ package day05;
  *然后删除英语这一项。
  *然后遍历该Map分别按照遍历key，Entry，value
  *的形式输出该Map信息。
- * @author Xiloer
  *
  */
 public class Test04 {

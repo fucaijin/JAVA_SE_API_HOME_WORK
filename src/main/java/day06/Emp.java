@@ -12,8 +12,6 @@ package day06;
  *    张三,25,男,5000,2006-02-15
  * 
  * 定义equals方法，要求名字相同，则认为内容一致。
- * @author Xiloer
- *
  */
 public class Emp {
 

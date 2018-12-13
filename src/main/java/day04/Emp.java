@@ -74,6 +74,7 @@ public class Emp {
 	 * 名字和年龄都相同即为同一个人
 	 */
 	public boolean equals(Object obj) {
+		if(this == obj) return true;
 		if (obj!=null && obj instanceof Emp) {
 			Emp e = (Emp)obj;
 			//名字和年龄都相同即为同一个人
